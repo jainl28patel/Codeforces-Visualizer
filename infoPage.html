@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFO Page</title>
+    <link rel="stylesheet" href="StyleSheet/infopage.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body>
+    <div class="main">
+        <div class="seg1">User Info</div>
+        <div class="seg2">
+            <img src="Assets/user.png" alt="" class="userimg">
+            <br>
+            <span id="name">Name
+                <hr>
+            </span>
+        </div>
+        <div class="seg3">
+            <hr>
+            <table class="basicinfo">
+                <tr class="green">
+                    <td> Name :</td>
+                    <td><span id="name2"></span></td>
+                </tr>
+                <tr>
+                    <td>Second Name : </td>
+                    <td><span id="secondname"></span></td>
+                </tr>
+                <tr class="green">
+                    <td>Rating : </td>
+                    <td><span id="rating"></span></td>
+                </tr>
+                <tr>
+                    <td>Total friends : </td>     
+                    <td><span id="friend"></span></td>            
+                </tr>
+                <tr class="green">
+                    <td>Total Contests : </td> 
+                    <td><span id="total_contest"></span></td>                  
+                </tr>
+                <tr>
+                    <td>Max Rating : </td>   
+                    <td><span id="max_rating"></span></td>               
+                </tr>
+                <tr class="green">
+                    <td>Contributions : </td> 
+                    <td><span id="contributions"></span></td>                  
+                </tr>
+                <tr>
+                    <td>Best Rank : </td>  
+                    <td><span id="best_rank"></span></td>                 
+                </tr>
+                
+            </table>
+        </div>
+        <div class="seg4">
+            Ranks of Last few contest
+            <hr>
+            <table class="friendlist">
+                <tr class="green2">
+                    <td><span id="cname1"></span></td>
+                    <td><span id="crank1"></span></td>
+                </tr>
+                <tr>
+                    <td><span id="cname2"></span></td>
+                    <td><span id="crank2"></span></td>
+                </tr>
+                <tr class="green2">
+                    <td><span id="cname3"></span></td>
+                    <td><span id="crank3"></span></td>
+                </tr>
+                <tr>
+                    <td><span id="cname4"></span></td>     
+                    <td><span id="crank4"></span></td>            
+                </tr>
+                <tr class="green2">
+                    <td><span id="cname5"></span></td> 
+                    <td><span id="crank5"></span></td>                  
+                </tr>
+            </table>
+        </div>
+        <div class="seg5">
+            Blog 
+            <br>
+            <hr>
+            <div id="blog_title"></div>
+            <div id="blog"></div>
+        </div>
+        <div class="seg6">My friends
+            <hr>
+            <div id="frnd1"></div>
+            <br>
+            <div id="frnd2"></div>
+        </div>
+        <div class="seg7">Graph
+            <hr>
+        </div>
+        <div class="seg8">
+            <canvas id="graph" style="width: 80vw;"></canvas>
+        </div>
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>

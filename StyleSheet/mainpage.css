@@ -1,0 +1,41 @@
+.headingIMG{
+    width: 80vw;
+    padding: 10px 10vw 20px 10vw;
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    width: 70vw;
+    background-color: rgb(185, 185, 185);
+    margin: 15px 15vw 20px 15vw;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.element2{
+    margin-top: 30px;
+    
+}
+.element1{
+    font-weight: 700;
+    font-size: 3vw;
+    margin-bottom: 5px;
+}
+.element3{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+#userid{
+    height: 2vw;
+    border-radius: 20px;
+}
+.element4{
+    margin-top: 20px;
+}
+.submit{
+    width: 8vw;
+    height: 2vw;
+    border-radius: 20px;
+}

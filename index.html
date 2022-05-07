@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="StyleSheet/mainpage.css">
+</head>
+<body>
+    <header><img src="Assets/Screenshot 2022-05-04 at 9.10.34 PM.png" alt="Codeforces User Profile portal" class="headingIMG"></header>
+    <div class="maindiv">
+        <div class="element1">Welcome to Codeforces Visualiser</div>
+        <div class="element3">Enter the User-ID</div>
+        <div class="element2"><input type="text" name="userid" id="userid" size="40" ></div>
+        <div class="element4"> <button id="submit" ><input type="submit" value="SUBMIT" class="submit"></button></div>
+    </div>
+    <script>
+        let button = document.getElementById('submit')
+        button.addEventListener("click" , function(){
+            let name = document.getElementById('userid').value
+            window.localStorage.setItem('userid',name)
+            window.open('infoPage.html');
+        })
+    </script>
+</body>
+</html>
